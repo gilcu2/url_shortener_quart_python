@@ -1,0 +1,47 @@
+venv*
+.vscode
+.idea
+
+# serverless
+## Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+__pycache__
+processor/bin/
+ingestion-api/bin/
+
+## Serverless directories
+.serverless
+node_modules
+package-lock.json
+package.json
+
+.DS_Store
+
+# ansible
+*.retry
+*.pem
+
+# Performance testing commands
+commands
+
+#liquibase
+!redshift/liquibase/lib
+
+.env_local
+
+data/

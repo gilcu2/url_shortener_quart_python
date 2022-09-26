@@ -8,6 +8,7 @@ packages = [{include = "url_shortener_quart_python"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+quart = "^0.18.0"
 
 
 [build-system]
