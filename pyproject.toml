@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "url-shortener-quart-python"
+version = "0.1.0"
+description = ""
+authors = ["Reynaldo Gil <gilcu2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "url_shortener_quart_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
